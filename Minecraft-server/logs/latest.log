@@ -1,0 +1,442 @@
+[18:49:35] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[18:49:35] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.2 by Microsoft; OS Linux arch amd64 version 6.2.0-1019-azure
+[18:49:36] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[18:49:36] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23111!/ Service=ModLauncher Env=SERVER
+[18:49:36] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 6 dependencies adding them to mods collection
+[18:49:39] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[18:49:39] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[18:49:39] [main/INFO] [Puzzles Lib]: Loading 40 mods:
+	- alexscaves 1.1.2
+	- alexsmobs 1.22.7
+	- architectury 9.1.12
+	- balm 7.2.2
+	- biomesoplenty 18.0.0.598
+	- carryon 2.1.2.7
+	- cataclysm 1.0
+	- cfm 7.0.0-pre36
+	- citadel 2.5.4
+	- cloth_config 11.1.118
+	- clumps 12.0.0.3
+	- constructionwand 1.20.1-2.11
+	- corpse 1.20.1-1.0.9
+	- create 0.5.1.f
+	- curios 5.7.0+1.20.1
+	- emotecraft 2.2.7-b.build.50
+	- explorify 1.3.0-mc1.20
+	- farmersdelight 1.20.1-1.2.4
+	- flywheel 0.6.10-7
+	- forge 47.2.20
+	- geckolib 4.4.2
+	- ironchest 1.20.1-14.4.4
+	- jade 11.8.0
+	- jei 15.3.0.4
+	- journeymap 5.9.18
+	- man 1.2.1
+	- mca 7.5.14+1.20.1
+	- minecraft 1.20.1
+	- mixinextras 0.2.0-beta.6
+	- mohist 1.20.1
+	- mutantmonsters 8.0.7
+	- playeranimator 1.0.2-rc1+1.20
+	- puzzlesaccessapi 8.0.7
+	- puzzleslib 8.1.17
+	- securitycraft 1.9.8
+	- sophisticatedbackpacks 3.20.1.1012
+	- sophisticatedcore 0.6.3.553
+	- terrablender 3.0.1.4
+	- twilightforest 4.3.2145
+	- waystones 14.1.3
+[18:49:48] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for mutantmonsters:main
+[18:49:49] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[18:49:50] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for puzzleslib:main
+[18:49:50] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[18:49:50] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
+[18:49:50] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.2.20 Initialized
+[18:49:50] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.2.20 Initialized
+[18:49:50] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[18:49:55] [main/INFO] [Puzzles Lib]: Loading common config for mutantmonsters
+[18:49:55] [Thread-1/INFO] [Puzzles Lib]: Reloading common config for mutantmonsters
+[18:49:55] [Thread-1/INFO] [Puzzles Lib]: Reloading common config for mutantmonsters
+[18:49:55] [modloading-worker-0/INFO] [thetadev.constructionwand.ConstructionWand]: ConstructionWand says hello - may the odds be ever in your favor.
+[18:49:55] [main/INFO] [terrablender]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[18:49:55] [main/INFO] [terrablender]: Registered region minecraft:nether to index 0 for type NETHER
+[18:49:55] [main/INFO] [terrablender]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[18:49:55] [main/INFO] [terrablender]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[18:49:55] [main/INFO] [terrablender]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[18:49:55] [main/INFO] [terrablender]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[18:49:55] [main/INFO] [terrablender]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[18:49:55] [main/INFO] [journeymap]: Initializing Packet Registries
+[18:49:55] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[18:49:55] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[18:49:55] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[18:49:55] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[18:49:55] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[18:49:55] [modloading-worker-0/INFO] [Jade]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[18:49:55] [modloading-worker-0/INFO] [Jade]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[18:50:01] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:50:06] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs]: Adding datapack listener capsid_recipes
+[18:50:06] [main/INFO] [com.github.L_Ender.cataclysm.Cataclysm]: Adding datapack listener altar_of_amethyst_recipes
+[18:50:07] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe create:cutting/compat/biomesoplenty/cherry_wood
+com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:cherry_wood'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:361) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:360) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.2.20-universal.jar%23265!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.2.20-universal.jar%23265!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:204) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:199) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.20.1-0.5.1.f.jar%23238!/:0.5.1.f]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.20.1-0.5.1.f.jar%23238!/:0.5.1.f]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.20.1-0.5.1.f.jar%23238!/:0.5.1.f]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.20-universal.jar%23265!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:186) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[18:50:07] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[18:50:07] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe create:cutting/compat/biomesoplenty/stripped_cherry_log
+com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_cherry_log'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:361) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:360) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.2.20-universal.jar%23265!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.2.20-universal.jar%23265!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:204) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:199) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.20.1-0.5.1.f.jar%23238!/:0.5.1.f]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.20.1-0.5.1.f.jar%23238!/:0.5.1.f]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.20.1-0.5.1.f.jar%23238!/:0.5.1.f]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.20-universal.jar%23265!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:186) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[18:50:07] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[18:50:07] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[18:50:07] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe create:cutting/compat/biomesoplenty/stripped_cherry_wood
+com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_cherry_wood'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:361) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:360) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.2.20-universal.jar%23265!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.2.20-universal.jar%23265!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:204) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:199) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.20.1-0.5.1.f.jar%23238!/:0.5.1.f]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.20.1-0.5.1.f.jar%23238!/:0.5.1.f]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.20.1-0.5.1.f.jar%23238!/:0.5.1.f]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.20-universal.jar%23265!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:186) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[18:50:07] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[18:50:07] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe create:cutting/compat/biomesoplenty/cherry_log
+com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:cherry_log'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:361) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:360) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.2.20-universal.jar%23265!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.2.20-universal.jar%23265!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:204) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:199) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.20.1-0.5.1.f.jar%23238!/:0.5.1.f]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.20.1-0.5.1.f.jar%23238!/:0.5.1.f]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.20.1-0.5.1.f.jar%23238!/:0.5.1.f]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.20-universal.jar%23265!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:186) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[18:50:07] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[18:50:07] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[18:50:07] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[18:50:07] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[18:50:07] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 34 recipes
+[18:50:07] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 4620 advancements
+[18:50:08] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 11 curio slots
+[18:50:08] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 1 curio entities
+[18:50:08] [main/INFO] [twilightforest]: Loaded 9 Stalactite configs!
+[18:50:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[18:50:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[18:50:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[18:50:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[18:50:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[18:50:12] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[18:50:12] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:50:12] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[18:50:12] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:50:12] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:50:12] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-580 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.2.20, NeoForge version 47.1.79)
+[18:50:14] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[18:50:14] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[18:50:14] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[18:50:14] [Server thread/INFO] [com.mohistmc.MohistMC]: Hello Plugins!
+[18:50:14] [Server thread/INFO] [Puzzles Lib]: Loading server config for mutantmonsters
+[18:50:14] [Thread-1/INFO] [Puzzles Lib]: Reloading server config for mutantmonsters
+[18:50:14] [Thread-1/INFO] [Puzzles Lib]: Reloading server config for mutantmonsters
+[18:50:14] [Server thread/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[18:50:14] [Thread-1/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[18:50:14] [Thread-1/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[18:50:14] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[18:50:14] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[18:50:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[18:50:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[18:50:23] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:23] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:23] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:23] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:24] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:24] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 1%
+[18:50:25] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 5%
+[18:50:25] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 9%
+[18:50:26] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 22%
+[18:50:26] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 4575 ms
+[18:50:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension twilightforest:twilight_forest
+[18:50:27] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:27] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:28] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:28] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:29] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 11%
+[18:50:29] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 55%
+[18:50:29] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2742 ms
+[18:50:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[18:50:30] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:30] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:30] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 1%
+[18:50:31] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 9%
+[18:50:31] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1969 ms
+[18:50:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension man:halucination
+[18:50:32] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:32] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:32] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:33] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 3%
+[18:50:33] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 45%
+[18:50:33] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2228 ms
+[18:50:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[18:50:34] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:34] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:34] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:50:35] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[18:50:35] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 10%
+[18:50:36] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2343 ms
+[18:50:36] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
+[18:50:36] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[18:50:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (22.814s)! For help, type "help"
+[18:50:36] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[18:50:36] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[18:51:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: facu776 joined the game
+[18:51:50] [Server thread/INFO] [Jade]: Syncing config to facu776 (5c9d82e4-2d38-3293-ab15-f58d74692987)
+[18:51:50] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: facu776[/127.0.0.1:60366] logged in with entity id 321 at ([world]-534.7162051974059, 64.0, 294.1800575489222)
+[18:52:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sebba_jj joined the game
+[18:52:17] [Server thread/INFO] [Jade]: Syncing config to sebba_jj (b7d34e24-59f5-3a61-b03d-84c1dae05004)
+[18:52:17] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: sebba_jj[/127.0.0.1:55730] logged in with entity id 458 at ([world]-1351.681833019438, 71.0, 19.267275108831058)
+[18:52:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2SystemOfDown2 joined the game
+[18:52:24] [Server thread/INFO] [Jade]: Syncing config to 2SystemOfDown2 (0356bf23-4be7-3d95-9f9f-d4cefc9946d0)
+[18:52:24] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: 2SystemOfDown2[/127.0.0.1:57134] logged in with entity id 711 at ([world]-2290.472496593423, 63.0, 29.391700658074644)
+[18:52:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: jump666 joined the game
+[18:52:41] [Server thread/INFO] [Jade]: Syncing config to jump666 (28abf811-67ee-3e1b-979b-84dccc82a9d7)
+[18:52:41] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: jump666[/127.0.0.1:46196] logged in with entity id 1021 at ([world]-1822.1569489493331, 69.0, 289.32769081830213)
+[18:52:51] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer]: <facu776> quien es jum?
+[18:52:53] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer]: <facu776> oso?
+[18:52:58] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer]: <jump666> yes
+[18:53:02] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer]: <jump666> soy oso pa
+[18:53:07] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer]: <facu776> bienvenido
+[18:53:20] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer]: <jump666> gracias capo
+[18:53:31] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer]: <facu776> dale rey
+[18:55:26] [Server thread/INFO] [forge.net.mca.MCA]: literal{Goše}[style={}] has been infected
+[18:55:33] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity VillagerEntityMCA['Goše'/713, l='ServerLevel[world]', x=-2159.97, y=74.00, z=3.71] died: Goše was slain by Zombie
+[18:55:38] [Server thread/INFO] [forge.net.mca.MCA]: literal{Donka}[style={}] has been infected
+[18:56:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Luciano2251 joined the game
+[18:56:37] [Server thread/INFO] [Jade]: Syncing config to Luciano2251 (08f6e5b3-87ad-3dc0-a73d-96f3dff63d7f)
+[18:56:37] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Luciano2251[/127.0.0.1:60146] logged in with entity id 3481 at ([world]-1332.699999988079, -42.0, 31.69999998807907)
+[18:57:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: facu776 has completed the challenge [Cover Me in Debris]
+[18:57:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: jump666 was shot by Skeleton
+[18:58:23] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer]: <sebba_jj> ss?}
+[18:58:35] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer]: <facu776> q es ss
+[18:58:35] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer]: <Luciano2251> facu te compro una mejora de netherite
+[18:58:44] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer]: <facu776> noce
+[18:58:52] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer]: <Luciano2251> ponele precio
+[18:58:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: jump666 has made the advancement [Acquire Hardware]
+[18:59:04] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer]: <facu776> hasta q no quien pingo me puso la mina todos son enemigos
+[18:59:22] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer]: <Luciano2251> que mina?
+[18:59:29] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer]: <facu776> esas q explotan
+[18:59:36] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer]: <Luciano2251> estan?
+[18:59:45] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer]: <facu776> si
+[18:59:51] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer]: <facu776> fue ell eze
+[18:59:59] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer]: <2SystemOfDown2> velo
+[19:00:05] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer]: <Luciano2251> igual
+[19:00:12] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer]: <Luciano2251> ponele precio a la mejora
+[19:00:27] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: facu776 issued server command: /xp add facu776 5 levels
+[19:00:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [facu776: Gave 5 experience levels to facu776]
+[19:00:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2SystemOfDown2 was shot by Skeleton
+[19:00:41] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: facu776 issued server command: /gamemode creative
+[19:00:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [facu776: Set own game mode to Creative Mode]
+[19:01:19] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: facu776 issued server command: /gamemode survival
+[19:01:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [facu776: Set own game mode to Survival Mode]
+[19:02:13] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SmeltItemFunction]: Couldn't smelt 2 bison_fur because there is no smelting recipe
+[19:07:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: jump666 was slain by Cave Spider
+[19:07:42] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: facu776 issued server command: /gamemode creative
+[19:07:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [facu776: Set own game mode to Creative Mode]
+[19:08:04] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: facu776 issued server command: /gamemode survival
+[19:08:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [facu776: Set own game mode to Survival Mode]
+[19:13:07] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: jump666 moved wrongly!
+[19:14:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: jump666 has made the advancement [Isn't It Iron Pick]
+[19:23:02] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: sebba_jj lost connection: Disconnected
+[19:23:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sebba_jj left the game
+[19:26:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: jump666 has made the advancement [Not Today, Thank You]
+[19:28:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: jump666 has made the advancement [Suit Up]
+[19:42:21] [Server thread/INFO] [forge.net.mca.MCA]: Villagers clothing  does not exist!
+[19:42:21] [Server thread/INFO] [forge.net.mca.MCA]: Villagers hair  does not exist!
+[19:52:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Luciano2251 was shot by Skeleton
+[19:56:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Luciano2251 was blown up by Creeper
+[19:57:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2SystemOfDown2 was shot by Skeleton
+[19:58:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: jump666 has made the advancement [Diamonds!]
+[19:58:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Luciano2251 was shot by Skeleton
+[20:04:10] [Async Chat Thread - #4/INFO] [net.minecraft.server.MinecraftServer]: <facu776> 7pm cierro y abro tipo 10 o 11
+[20:04:44] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: facu776 lost connection: Disconnected
+[20:04:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: facu776 left the game
+[20:07:02] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity VillagerEntityMCA['Slavko'/36193, l='ServerLevel[world]', x=-1746.62, y=88.00, z=-1.53] died: Slavko was slain by jump666
+[20:14:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: jump666 has made the advancement [Sweet Dreams]
+[20:16:10] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: jump666 moved wrongly!
+[20:20:32] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: jump666 lost connection: Disconnected
+[20:20:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: jump666 left the game
+[20:27:12] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 2SystemOfDown2 lost connection: Disconnected
+[20:27:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2SystemOfDown2 left the game
+[20:37:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: facu776 joined the game
+[20:37:31] [Server thread/INFO] [Jade]: Syncing config to facu776 (5c9d82e4-2d38-3293-ab15-f58d74692987)
+[20:37:31] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: facu776[/127.0.0.1:46528] logged in with entity id 42010 at ([world]-534.672505010272, 64.0, 289.92336464252753)
+[20:45:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sebba_jj joined the game
+[20:45:59] [Server thread/INFO] [Jade]: Syncing config to sebba_jj (b7d34e24-59f5-3a61-b03d-84c1dae05004)
+[20:45:59] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: sebba_jj[/127.0.0.1:40108] logged in with entity id 44360 at ([world]-1340.9266645915886, 83.0, 16.906323423942553)
+[20:47:03] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: facu776 issued server command: /gamemode creative
+[20:47:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [facu776: Set own game mode to Creative Mode]
+[20:47:23] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: facu776 issued server command: /gamemode survival
+[20:47:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [facu776: Set own game mode to Survival Mode]
+[20:48:43] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: facu776 issued server command: /gamemode creative
+[20:48:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [facu776: Set own game mode to Creative Mode]
+[20:49:00] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: facu776 issued server command: /gamemode survival
+[20:49:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [facu776: Set own game mode to Survival Mode]
+[20:49:06] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: facu776 issued server command: /gamemode creative
+[20:49:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [facu776: Set own game mode to Creative Mode]
+[20:56:34] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Luciano2251 lost connection: Disconnected
+[20:56:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Luciano2251 left the game
+[20:58:58] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: facu776 issued server command: /gamemode survival
+[20:58:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [facu776: Set own game mode to Survival Mode]
+[21:00:45] [Async Chat Thread - #6/INFO] [net.minecraft.server.MinecraftServer]: <facu776> seba
+[21:00:48] [Async Chat Thread - #7/INFO] [net.minecraft.server.MinecraftServer]: <facu776> tengo q cerra
+[21:00:51] [Async Chat Thread - #6/INFO] [net.minecraft.server.MinecraftServer]: <sebba_jj> uy
+[21:00:56] [Async Chat Thread - #7/INFO] [net.minecraft.server.MinecraftServer]: <sebba_jj> dale
+[21:01:00] [Async Chat Thread - #6/INFO] [net.minecraft.server.MinecraftServer]: <facu776> d1
+[21:01:02] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: sebba_jj lost connection: Disconnected
+[21:01:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sebba_jj left the game
+[21:01:03] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: facu776 lost connection: Disconnected
+[21:01:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: facu776 left the game
+[21:01:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[21:01:10] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Input/output error
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.21.0.jar%23108!/:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.21.0.jar%23108!/:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.21.0.jar%23108!/:?]
+	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.21.0.jar%23108!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.21.0.jar%23108!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.21.0.jar%23108!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.21.0.jar%23108!/:?]
+	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.20.1-47.2.20-universal.jar%23265!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:93) ~[server-1.20.1-20230612.114412-srg.jar%23260!/:?]
+Caused by: java.io.IOException: Input/output error
+	at java.io.FileInputStream.read0(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:231) ~[?:?]
+	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[jline-terminal-3.21.0.jar%23109!/:?]
+	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.21.0.jar%23109!/:?]
+	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[jline-terminal-3.21.0.jar%23109!/:?]
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.21.0.jar%23109!/:?]
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.21.0.jar%23108!/:?]
+	... 8 more
+[21:01:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[21:01:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[21:01:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
